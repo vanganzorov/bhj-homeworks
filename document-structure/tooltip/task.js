@@ -8,7 +8,7 @@ hasTooltips.forEach((elem) => {
 
 const tooltips = document.querySelectorAll('.tooltip');
 for (let i = 0; i < hasTooltips.length; i++) {
-    hasTooltips[i].addEventListener('click', (e) => {
+    hasTooltips[i].addEventListener('click', (e) => { 
         e.preventDefault();
 
         if (tooltips[i].classList.contains('tooltip_active')) {

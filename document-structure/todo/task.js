@@ -11,7 +11,7 @@ let addingTask = () => {
             <a href="#" class="task__remove">&times;</a>
         </div>`
     )
-    taskInput.value = ''; 
+    taskInput.value = '';
 }
 
 tasksList.addEventListener("click", e => {

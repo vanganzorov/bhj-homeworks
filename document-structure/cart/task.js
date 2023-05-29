@@ -18,7 +18,7 @@ let productsQuantityValue = () => {
         if (addButton && addButton.classList.contains('product__add')) {
             addButton.addEventListener('click', () => {
 
-                let productImage = el.closest('.product').children[1].src; 
+                let productImage = el.closest('.product').children[1].src;
                 let dataId = el.closest('.product').getAttribute('data-id');
 
                 let cartProduct = document.createElement('div');
